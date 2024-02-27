@@ -1,0 +1,12 @@
+{
+    "name": "Hello World Website",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "settings": { 
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "forwardPorts": [4321],
+    "postCreateCommand": "echo 'You can manually open http://localhost:4321 in your browser.'",
+    "extensions": []
+}
