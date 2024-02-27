@@ -1,7 +1,7 @@
 {
     "name": "Hello World Website",
     "build": {
-        "dockerfile": "Dockerfile"
+        "dockerfile": "../Dockerfile" // Update this line according to the correct path
     },
     "settings": { 
         "terminal.integrated.shell.linux": "/bin/bash"
