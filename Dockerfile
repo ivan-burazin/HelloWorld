@@ -1,5 +1,11 @@
+
+
+
 # Use the Nginx image from Docker Hub
 FROM nginx:alpine
+
+# Install Git
+RUN apk update && apk add git
 
 # Remove the default Nginx configuration file
 RUN rm /etc/nginx/conf.d/default.conf
